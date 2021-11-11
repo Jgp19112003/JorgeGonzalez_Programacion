@@ -8,16 +8,12 @@ public class Arrays {
         double[] decimales = new double[2];
 
         int longuitudArray = numerosDos.length;
-        System.out.println(numerosDos [0]);
-        System.out.println(numerosDos [1]);
-        System.out.println(numerosDos [2]);
-        System.out.println(numerosDos [3]);
-        System.out.println(numerosDos [4]);
-        System.out.println(numerosDos [5]);
-        System.out.println(numerosDos [6]);
-        System.out.println(numerosDos [7]);
-        System.out.println(numerosDos [8]);
-        System.out.println(numerosDos [9]);
+
+        for (int i = 0; i < numerosDos.length; i++) {
+
+            System.out.println(numerosDos [i]);
+
+        }
 
 
 
