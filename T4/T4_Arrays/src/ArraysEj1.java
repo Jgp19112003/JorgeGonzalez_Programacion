@@ -1,7 +1,7 @@
 import org.w3c.dom.ls.LSOutput;
-
+//Ejercicio 1
 import java.util.Scanner;
-public class ArraysExercises {
+public class ArraysEj1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -13,7 +13,7 @@ public class ArraysExercises {
             System.out.printf("Introduzca el numero %d%n",i);
             numeros[i] = in.nextInt();
         }
-        
+
         for (int i = 0; i < 9 ; i++) {
             System.out.println(numeros[i]);
         }
