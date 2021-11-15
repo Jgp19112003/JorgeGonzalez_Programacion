@@ -1,24 +1,24 @@
-import org.w3c.dom.ls.LSOutput;
-//Ejercicio 1
+package Base_Arrays;//Ejercicio3
 import java.util.Scanner;
-public class ArraysEj1 {
+public class Ej3 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
         int[] numeros = new int[10];
 
-
-        for (int i = 0; i < 9 ; i++) {
+        for (int i = 0; i < numeros.length ; i++) {
 
             System.out.printf("Introduzca el numero %d%n",i);
             numeros[i] = in.nextInt();
         }
-
-        for (int i = 0; i < 9 ; i++) {
+        
+        for (int i = 0; i < numeros.length ; i++) {
             System.out.println(numeros[i]);
         }
 
+        for (int i = 0; i < numeros.length ; i++) {
 
-
+            System.out.println(numeros[i]);
+        }
     }
 }
