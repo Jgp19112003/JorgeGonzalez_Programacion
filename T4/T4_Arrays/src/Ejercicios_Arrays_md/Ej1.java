@@ -13,9 +13,6 @@ public class Ej1 {
         for (int i = 0; i < numAleatorios.length ; i++) {
             System.out.println(numAleatorios[i]);
         }
-
-
-
     }
 }
 
