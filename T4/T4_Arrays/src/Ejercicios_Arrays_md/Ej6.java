@@ -25,8 +25,8 @@ public class Ej6 {
 
         for (int item: nums) {
             System.out.println(item);
-
         }
+        
 
 
         }
