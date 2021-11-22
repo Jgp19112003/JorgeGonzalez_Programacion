@@ -24,7 +24,7 @@ public class SumaAristas {
         }
 
 
-        for (int i = 0; i < nums.length; i++) {
+        /*for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < nums[i].length; j++) {
                 if (i==0){
                     sumaFila1 += nums[i][j];
@@ -41,7 +41,28 @@ public class SumaAristas {
 
             }
 
+        }*/
+        int numeroFila = 0;
+        for (int[] filas : nums) {
+            System.out.println("fila"+numeroFila);
+
+            for (int columna : filas) {
+                if (numeroFila== 0) {
+                sumaFila1 += columnas;
+                }
+                if (numeroFila == fila -1){
+                    sumaFila1 += columna;
+                }
+
+
+            }
+
+
+
+            numeroFila++;
         }
+
+
         System.out.println("La suma de la primera fila es: "+sumaFila1);
         System.out.println("La suma de la ultima fila es: "+sumaFilaN);
         System.out.println("La suma de la primera columna es: "+sumaColumna1);
