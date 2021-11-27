@@ -23,7 +23,7 @@ public class Ej15 {
         alumnos[2][3] = 2;
         alumnos[2][4] = true;
 
-        double media = 0;
+        double media;
         int suspensas = 0;
         int suma = 0;
         for (int i = 0; i < alumnos.length; i++) {

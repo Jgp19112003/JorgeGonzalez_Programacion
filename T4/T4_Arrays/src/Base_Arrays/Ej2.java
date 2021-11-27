@@ -9,7 +9,7 @@ public class Ej2 {
         double media = 0;
 
         for (int i = 0; i < numAleatorios.length; i++) {
-            numAleatorios[i] = (int) (Math.random()*10+1);
+            numAleatorios[i] = (int) (Math.random()*11);
             System.out.println(numAleatorios[i]);
             suma = suma + numAleatorios[i];
             media = suma/30;
