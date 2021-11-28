@@ -9,7 +9,7 @@ public class EjPractica1   {
         String[] palabras = new String[10];
         int opc;
         int suma = 0;
-        int media;
+        double media;
         int mayor = -999999;
         int menor = 99999;
         String palabraMenor = "";
@@ -39,13 +39,14 @@ public class EjPractica1   {
 
                suma += palabras[i].length();
 
+
             }
             System.out.println("El nuero de letras totales es: "+suma);
         }
 
         if(opc == 4){
 
-            media = suma/palabras.length;
+            media = (double) suma/palabras.length;
 
             System.out.println("La media de las letras es: "+media);
         }

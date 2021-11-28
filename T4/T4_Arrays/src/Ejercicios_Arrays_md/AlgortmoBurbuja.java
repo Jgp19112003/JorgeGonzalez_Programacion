@@ -25,6 +25,8 @@ public class AlgortmoBurbuja {
                 }
 
             }
+
+
         }
 
         for (int item : nums) {
