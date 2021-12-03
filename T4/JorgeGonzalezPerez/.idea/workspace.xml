@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="987c892c-04df-4fa5-a243-54be5329546c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JorgeGonzalezPerez.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JorgeGonzalezPerez/Ej1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JorgeGonzalezPerez/Ej2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ej1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ej2.java" beforeDir="false" />
-    </list>
+    <list default="true" id="987c892c-04df-4fa5-a243-54be5329546c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../T4_Arrays" />
   </component>
   <component name="RunManager" selected="Application.Ej2">
     <configuration name="Ej1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -85,5 +75,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
