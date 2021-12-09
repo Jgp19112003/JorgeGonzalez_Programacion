@@ -17,7 +17,7 @@ public class champions {
 
                 for (int x = 0; x < equipoGenerado1.length(); x++) {
                     if (equipoGenerado1.equalsIgnoreCase(equipoSalidosB1[i])){
-                        int aleatorio1 = (int) (Math.random() * bombo1.length);     
+                        aleatorio1 = (int) (Math.random() * bombo1.length);
                     }
 
                 }
