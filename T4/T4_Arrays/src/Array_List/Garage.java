@@ -5,71 +5,115 @@ import java.util.Scanner;
 
 public class Garage {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-
-        int opc;
-        String marca,modelo,matricula;
-        ArrayList<Object[]> coches = new ArrayList<>();
-
-
-
-
-
-
-
-
+        Scanner lecturaTeclado = new Scanner(System.in);
+        int opcion = 0;
+        ArrayList<Object[]> listaGaraje = new ArrayList();
 
         do {
-            System.out.println("Que quieres hacer : ");
-            opc = in.nextInt();
-            if (opc == 1) {
-                System.out.println("Introduzca los datos del coche");
-                System.out.println("Marca: ");
-                marca = in.next();
-                System.out.println("Modelo: ");
-                modelo = in.next();
-                System.out.println("Mátricula: ");
-                matricula = in.next();
 
-                Object[] coche1 = new Object[]{marca, modelo, matricula};
-                coches.add(coche1);
+            System.out.println("Bienvenido al garaje");
+            System.out.println("1. Añadir coche");
+            System.out.println("2. Listar coches");
+            System.out.println("3. Buscar coche");
+            System.out.println("4. Calcular costes");
+            System.out.println("5. Borrar coche");
+            System.out.println("6. Vaciar garaje");
+            System.out.println("7. Salir");
 
+            opcion = lecturaTeclado.nextInt();
 
-            }
-            for (Object[] coche : coches) {
+            switch (opcion) {
+                case 1:
+                    if (listaGaraje.size() < 5) {
+                        System.out.println("Que marca tiene el coche");
+                        String marca = lecturaTeclado.next();
+                        System.out.println("Que modelo tiene el coche");
+                        String modelo = lecturaTeclado.next();
+                        System.out.println("Que matricula tiene el coche");
+                        String matricula = lecturaTeclado.next();
+                        System.out.println("Que coste tiene el coche");
+                        int coste = lecturaTeclado.nextInt();
+                        Object[] coche = new Object[]{marca, modelo, matricula, coste};
+                        System.out.println("Coche recepcionado");
+                        listaGaraje.add(coche);
+                    } else {
+                        System.out.println("No hay espacio disponible");
+                    }
 
-                for (Object item : coche) {
-                    System.out.print(item + "\t");
-                }
-                System.out.println();
+                    break;
 
+                case 2:
 
-                if (opc == 2) {
-                        for (Object item : coche) {
-                            System.out.print(item + "\t");
+                    if (listaGaraje.size()>0){
+                        for ( Object[] coche : listaGaraje ) {
+                            System.out.println("Marca: "+coche[0]
+                                    +"\tModelo: "+coche[1]
+                                    +"\tMatricula: " +coche[2]
+                                    +"\tCoste: "+coche[3]);
                         }
-                        System.out.println();
+                    } else {
+                        System.out.println("No hay coches en el garaje");
+                    }
 
-                }
+                    break;
+                case 3:
+                    System.out.println("Que matrícula quieres buscar");
+                    String matricula = lecturaTeclado.next();
+                    boolean encontrado = false;
 
-                if (opc == 3) {
-                    System.out.println("Introduzca matricula ");
-                    matricula = in.next();
-                        if (((String)coche[0]).equalsIgnoreCase(matricula)) {
-                            for (Object item : coche) {
-                                System.out.print(item + "\t");
-                            }
-                            System.out.println();
+                    for ( Object[] coche : listaGaraje ) {
+
+                        if (coche[2].toString().equalsIgnoreCase(matricula)){
+                            encontrado = true;
+                            System.out.println("Marca: "+coche[0]
+                                    +"\tModelo: "+coche[1]
+                                    +"\tMatricula: " +coche[2]
+                                    +"\tCoste: "+coche[3]);
+
+                            break;
                         }
+                    }
 
+                    if (!encontrado){
+                        System.out.println("El coche no está en el garaje");
+                    }
 
-                }
+                    break;
+                case 4:
+
+                    int costeAcumulado = 0;
+                    for ( Object[] coche : listaGaraje ) {
+                        costeAcumulado += (int) coche[3];
+                    }
+
+                    System.out.println("Tu coste acumulado es de "+costeAcumulado);
+                    break;
+                case 5:
+                    System.out.println("Que matrícula quieres buscar");
+                    matricula = lecturaTeclado.next();
+                    encontrado = false;
+
+                    for (int i = 0; i < listaGaraje.size(); i++) {
+                        if (listaGaraje.get(i)[2].toString().equalsIgnoreCase(matricula)){
+                            System.out.println("Coche borrado");
+                            encontrado=true;
+                            listaGaraje.remove(i);
+                            break;
+                        }
+                    }
+
+                    if(!encontrado){
+                        System.out.println("Coche no encotrado en la lista");
+                    }
+
+                    break;
+                case 6:
+                    listaGaraje.clear();
+                    System.out.println("Lista vaciada");
+                    break;
             }
 
-
-        }while (opc >= 1);
-
-
+        } while (opcion != 7);
 
     }
 }
