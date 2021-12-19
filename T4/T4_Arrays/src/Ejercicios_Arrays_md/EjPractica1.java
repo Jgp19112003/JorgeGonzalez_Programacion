@@ -46,7 +46,7 @@ public class EjPractica1   {
 
         if(opc == 4){
 
-            media = (double) suma/palabras.length;
+            media = (double) suma/10;
 
             System.out.println("La media de las letras es: "+media);
         }

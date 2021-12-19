@@ -122,7 +122,7 @@ public class Ej13 {
                 System.out.printf("Introduzca el valor de la posicion %d: ",i+1);
                 array [i] = in.nextInt();
             }
-            
+
             for (int item: array) {
                 System.out.println(item);
 
