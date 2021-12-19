@@ -17,6 +17,7 @@ public class Agenda {
             System.out.println("2. Buscar persona");
             System.out.println("3. Borrar persona");
             System.out.println("4. Listar personas");
+            System.out.println("5. Cerrar agenda");
 
             opc = in.nextInt();
             switch (opc) {
@@ -112,7 +113,9 @@ public class Agenda {
 
 
 
-        }while (opc > 0) ;
+        }while (opc != 5) ;
+
+        System.out.println("Agenda cerrada");
 
     }
 }

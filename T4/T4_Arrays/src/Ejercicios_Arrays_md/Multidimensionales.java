@@ -1,3 +1,5 @@
+package Ejercicios_Arrays_md;
+
 public class Multidimensionales {
     public static void main(String[] args) {
         int[][] arrayMulti = new int[3][3];
