@@ -1,5 +1,6 @@
 package HasTable;
 
+import java.util.Enumeration;
 import java.util.Hashtable;
 
 public class ListasHash {
@@ -22,5 +23,17 @@ public class ListasHash {
         for (String item: elementoEncontrado) {
             System.out.println(item);
         }
+        System.out.println("Listado elementos");
+        Enumeration<Object> listaClaves= listaElementos.keys();
+
+        while (listaClaves.hasMoreElements()){
+
+            Object clave = listaClaves.nextElement();
+            Object elemento = listaElementos.get(clave);
+            System.out.println(elemento);
+
+        }
+
+
     }
 }
