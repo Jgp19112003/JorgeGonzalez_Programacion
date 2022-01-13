@@ -61,11 +61,12 @@ public class HashGarageF {
 
                 case 3:
                     System.out.println("Que matrícula quieres buscar");
-                    String matricula = in.next();
-                    if (listaGaraje.containsKey(matricula)){
-                        listaGaraje.get(matricula);
-
-
+                    String matriculaIntroducida = in.next();
+                    String[] elementoEncontrado = (String[]) listaGaraje.get(matricula);
+                    if (listaGaraje.contains(matriculaIntroducida)){
+                        for (Object item : elementoEncontrado) {
+                            System.out.println(item);
+                        }
                     }else{
                         System.out.println("Coche no encontrado");
                     }
