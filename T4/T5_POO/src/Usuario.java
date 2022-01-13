@@ -31,6 +31,23 @@ public class Usuario {
 
     // metodos
 
+    public void mostrarDatos(){
+
+        System.out.println("Nombre: "+nombre);
+        System.out.println("Pass: "+password);
+        System.out.println("Correo: "+correoElectronico);
+        System.out.println("Fecha: "+fecha);
+        System.out.println("Edad: "+edad);
+
+    }
+
+    public String mostrarDatosRetorno(){
+       return "Nombre: "+ nombre+"\n"+"Apellidos: "+apellidos;
+    }
+
+    public void saludar (Usuario usuario){
+        System.out.println("Hola soy"+ nombre+" y voy a saludar a "+usuario.getNombre());
+    }
     // metodos especiales getter y setters
 
     //getter de pass
@@ -85,4 +102,6 @@ public class Usuario {
     public void setEdad(int edad) {
         this.edad = edad;
     }
-}
+
+    }
+

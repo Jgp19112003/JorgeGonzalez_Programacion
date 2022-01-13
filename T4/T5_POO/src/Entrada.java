@@ -11,7 +11,7 @@ public class Entrada {
         Usuario usuario2 = new Usuario();
         //nombre , password , correo , edad , fecha--son null
 
-        Usuario usuario3 = new Usuario("Borja","borja.martin@gmail.com","pass");
+        Usuario usuario3 = new Usuario("Pepe","borja.martin@gmail.com","pass");
         //nombre = Borja , password = pass, correo = borja.martin@gmail.com , edad , fecha
 
 
@@ -24,8 +24,10 @@ public class Entrada {
         usuario1.setApellidos("Martin");
         usuario1.setFecha("11/08/2021");
         usuario1.setEdad(20);
+
         System.out.println(usuario1.getPassword());
-
-
+        //usuario1.mostrarDatos();
+        System.out.println(usuario1.mostrarDatosRetorno());
+        usuario1.saludar(usuario3);
     }
 }
