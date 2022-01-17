@@ -34,8 +34,8 @@ public class Usuario {
         }
 
         public Usuario (){
-            this.nombre = "";
-            this.apellido = "";
+            this.nombre = "Por defecto";
+            this.apellido = "Por defecto";
             this.dni = "111111111X";
             this.edad = 0;
             this.peso = 0;
