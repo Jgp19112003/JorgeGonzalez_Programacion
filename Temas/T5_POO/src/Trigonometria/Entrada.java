@@ -11,21 +11,21 @@ public class Entrada {
 
         switch (opc){
 
-            case 1:  dayString = "Lunes";
+            case 1:   = "Lunes";
                 break;
-            case 2:  dayString = "Martes";
+            case 2:   = "Martes";
                 break;
-            case 3:  dayString = "Miercoles";
+            case 3:   = "Miercoles";
                 break;
-            case 4:  dayString = "Jueves";
+            case 4:   = "Jueves";
                 break;
-            case 5:  dayString = "Viernes";
+            case 5:   = "Viernes";
                 break;
-            case 6:  dayString = "Sabado";
+            case 6:   = "Sabado";
                 break;
-            case 7:  dayString = "Domingo";
+            case 7:   = "Domingo";
                 break;
-            default: dayString = "Dia inválido";
+            default:  = "Dia inválido";
                 break;
         }
 
