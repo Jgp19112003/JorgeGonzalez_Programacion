@@ -17,7 +17,7 @@ public class Triangulo {
 
     public void areaTriangulo(){
 
-        area = (base*altura)/2;
+        this.area = (this.base*this.altura)/2;
 
     }
 

@@ -16,12 +16,12 @@ public class Cuadrado {
 
     public void areaCuadrado(){
 
-        area = (base*altura);
+        this.area = (this.base*this.altura);
 
     }
     public void perimetroCuadrado(){
 
-        perímetro = ((2*altura)+(2*base));
+        this.perímetro = ((2*this.altura)+(2*this.base));
 
     }
 
