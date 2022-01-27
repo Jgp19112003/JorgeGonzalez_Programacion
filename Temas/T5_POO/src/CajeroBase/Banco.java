@@ -12,7 +12,7 @@ public class Banco {
     }
     public void crearCuenta(Cliente cliente){
 
-        this.cuentas.add(cliente);
+        cuentas.add(cliente);
 
     }
 
