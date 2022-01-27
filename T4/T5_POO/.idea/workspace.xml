@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0203cd2d-f927-4836-918d-99d6403faaed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Agenda/Agenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Agenda/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Agenda/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T5_POO/Trigonometria/Entrada.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T5_POO/Trigonometria/Entrada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T5_POO/Trigonometria/Triangulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T5_POO/Trigonometria/Triangulo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trigonometria/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trigonometria/Circulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trigonometria/Cuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trigonometria/Cuadrado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trigonometria/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trigonometria/Entrada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trigonometria/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trigonometria/Triangulo.java" afterDir="false" />
-    </list>
+    <list default="true" id="0203cd2d-f927-4836-918d-99d6403faaed" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +29,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Temas/T5_POO" />
   </component>
   <component name="RunManager" selected="Application.Entrada">
     <configuration name="Entrada (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
