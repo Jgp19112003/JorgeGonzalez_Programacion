@@ -4,7 +4,7 @@ public class Cliente {
 
 
     private String dni;
-    private int isbn, pin, saldo_inicial;
+    private int isbn, pin, saldo_inicial,saldo;
 
     public Cliente(){
 
@@ -22,4 +22,43 @@ public class Cliente {
     }
 
 
+    public String getDni() {
+        return dni;
+    }
+
+    public int getIsbn() {
+        return isbn;
+    }
+
+    public int getPin() {
+        return pin;
+    }
+
+    public int getSaldo_inicial() {
+        return saldo_inicial;
+    }
+
+    public int getSaldo() {
+        return saldo;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
+
+    public void setIsbn(int isbn) {
+        this.isbn = isbn;
+    }
+
+    public void setPin(int pin) {
+        this.pin = pin;
+    }
+
+    public void setSaldo_inicial(int saldo_inicial) {
+        this.saldo_inicial = saldo_inicial;
+    }
+
+    public void setSaldo(int saldo) {
+        this.saldo = saldo;
+    }
 }
