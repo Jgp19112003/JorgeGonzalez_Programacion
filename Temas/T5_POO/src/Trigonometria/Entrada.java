@@ -9,7 +9,25 @@ public class Entrada {
         System.out.println("Eliga una opcion: ");
         opc = in.nextInt();
 
+        switch (opc){
 
+            case 1:   = "Lunes";
+                break;
+            case 2:   = "Martes";
+                break;
+            case 3:   = "Miercoles";
+                break;
+            case 4:   = "Jueves";
+                break;
+            case 5:   = "Viernes";
+                break;
+            case 6:   = "Sabado";
+                break;
+            case 7:   = "Domingo";
+                break;
+            default:  = "Dia inválido";
+                break;
+        }
 
 
         Triangulo t1 = new Triangulo(2,5);
