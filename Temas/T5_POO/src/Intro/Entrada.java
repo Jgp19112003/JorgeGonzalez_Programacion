@@ -1,3 +1,5 @@
+package Intro;
+
 public class Entrada {
     //ambito de clase
     String nombre = "Borja";
