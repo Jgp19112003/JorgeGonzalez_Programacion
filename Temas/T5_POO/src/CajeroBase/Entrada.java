@@ -52,6 +52,14 @@ public class Entrada {
 
                             break;
                         case 3:
+                            System.out.println("-- Seleccionado sacar dinero");
+                            System.out.println("Introduce DNI de titular: ");
+                            dni = in.next();
+                            System.out.println("Introduce pin asociado: ");
+                            pin = in.nextInt();
+                            BBVA.sacarDinero(dni, pin);
+
+
                             break;
                         case 4:
                             break;
