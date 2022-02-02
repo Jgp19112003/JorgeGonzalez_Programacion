@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a4df4435-8236-49fe-92ee-3bb8805b1741" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/T5_POO/src/CajeroBase/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/T5_POO/src/CajeroBase/Banco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/T5_POO/src/CajeroBase/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/T5_POO/src/CajeroBase/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/T5_POO/src/CajeroBase/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/T5_POO/src/CajeroBase/Entrada.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

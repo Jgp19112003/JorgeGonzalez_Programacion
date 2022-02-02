@@ -4,21 +4,22 @@ public class Cliente {
 
 
     private String dni;
-    private int isbn, pin, saldo_inicial,saldo;
+    private int isbn, pin,saldo;
 
     public Cliente(){
 
     }
-    public Cliente(String dni, int isbn, int pin, int saldo_inicial){
+    public Cliente(String dni, int isbn, int pin, int saldo){
         this.dni = dni;
         this.isbn = isbn;
         this.pin = pin;
-        this.saldo_inicial = saldo_inicial;
+        this.saldo = saldo;
+
     }
-    public Cliente(String dni,int pin, int saldo_inicial){
+    public Cliente(String dni,int pin, int saldo){
         this.dni = dni;
         this.pin = pin;
-        this.saldo_inicial = saldo_inicial;
+        this.saldo = saldo;
     }
 
 
@@ -34,9 +35,6 @@ public class Cliente {
         return pin;
     }
 
-    public int getSaldo_inicial() {
-        return saldo_inicial;
-    }
 
     public int getSaldo() {
         return saldo;
@@ -52,10 +50,6 @@ public class Cliente {
 
     public void setPin(int pin) {
         this.pin = pin;
-    }
-
-    public void setSaldo_inicial(int saldo_inicial) {
-        this.saldo_inicial = saldo_inicial;
     }
 
     public void setSaldo(int saldo) {

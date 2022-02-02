@@ -27,10 +27,10 @@ public class Banco {
                     System.out.println("Introduce saldo a ingresar: ");
                     saldo_introducido = in.nextInt();
                     if (saldo_introducido < 0) {
-                        System.out.println("El saldo intrroducido no puede ser negativo");
+                        System.out.println("El saldo introducido no puede ser negativo");
                     }
                 }while (saldo_introducido<0);
-                cuentas.get(i).setSaldo(saldo_introducido+cuentas.get(i).getSaldo_inicial()+cuentas.get(i).getSaldo());
+                cuentas.get(i).setSaldo(saldo_introducido+cuentas.get(i).getSaldo());
                 System.out.println("El saldo total de la cuenta es: "+ cuentas.get(i).getSaldo());
             }
 
@@ -48,7 +48,7 @@ public class Banco {
                     System.out.println("Introduce saldo a retirar: ");
                     saldo_retitar = in.nextInt();
 
-                    if (cuentas.get(i).getSaldo() <= (cuentas.get(i).getSaldo()+saldo_retitar)) {
+                    if (cuentas.get(i).getSaldo() >= (saldo_retitar)) {
 
                         cuentas.get(i).setSaldo(cuentas.get(i).getSaldo()-saldo_retitar);
                         System.out.println("---Dinero retirado correctamente---");

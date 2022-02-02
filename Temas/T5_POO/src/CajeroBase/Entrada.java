@@ -11,7 +11,7 @@ public class Entrada {
 
         int opc;
         String dni;
-        int isbn, pin, saldo_inicial;
+        int isbn, pin, saldo;
         String nombre, cif;
 
         System.out.println("Introduce el banco con el que quieres operar: ");
@@ -37,9 +37,9 @@ public class Entrada {
                             System.out.println("Introduce pin asociado: ");
                             pin = in.nextInt();
                             System.out.println("Introduce saldo inicial: ");
-                            saldo_inicial = in.nextInt();
+                            saldo = in.nextInt();
                             System.out.println("--- Cuenta creada correctamente ---");
-                            Cliente c1 = new Cliente(dni, pin, saldo_inicial);
+                            Cliente c1 = new Cliente(dni, pin, saldo);
                             BBVA.crearCuenta(c1);
                             break;
                         case 2:
