@@ -17,6 +17,12 @@ public class Deportivo extends Coche{
         System.out.println(velocidad);
     }
 
+    @Override
+    public void mostrarDatos() {
+        super.mostrarDatos();
+        System.out.println(par);
+    }
+
     public int getPar() {
         return par;
     }

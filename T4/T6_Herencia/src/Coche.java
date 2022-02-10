@@ -16,6 +16,12 @@ public class Coche {
     public void  calcularVelocidad (int velocidad){
         this.velocidad += velocidad;
     }
+    public void mostrarDatos(){
+        System.out.println(matricula);
+        System.out.println(bastidor);
+        System.out.println(cv);
+        System.out.println(cc);
+    }
 
     public String getMatricula() {
         return matricula;

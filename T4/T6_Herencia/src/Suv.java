@@ -18,6 +18,12 @@ public class Suv extends Coche{
 
     }
 
+    @Override
+    public void mostrarDatos() {
+        super.mostrarDatos();
+        System.out.println(traccion);
+    }
+
     public String getTraccion() {
         return traccion;
     }

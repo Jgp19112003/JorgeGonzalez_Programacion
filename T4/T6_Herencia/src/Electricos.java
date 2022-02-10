@@ -18,6 +18,12 @@ public class Electricos extends Coche{
 
     }
 
+    @Override
+    public void mostrarDatos() {
+        super.mostrarDatos();
+        System.out.println(bateria);
+    }
+
     public int getBateria() {
         return bateria;
     }
