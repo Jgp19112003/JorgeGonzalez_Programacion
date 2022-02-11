@@ -1,18 +1,39 @@
+import java.util.Scanner;
 public class Entrada {
 
     public static void main(String[] args) {
-        Coche coche = new Coche("1234A","123",100,2000);
-        coche.calcularVelocidad(80);
-        System.out.println(coche.getVelocidad());
-        Deportivo deportivo = new Deportivo("234B","234",200,5000,600);
-        deportivo.calcularVelocidad(100);
-        deportivo.mostrarDatos();
-        Electricos electricos = new Electricos("234B","234",200,5000,600);
-        electricos.calcularVelocidad(100);
-        electricos.mostrarDatos();
-        Suv suv = new Suv("234B","234",200,5000,"Trasera");
-        suv.calcularVelocidad(100);
-        suv.mostrarDatos();
+        Scanner in = new Scanner(System.in);
+        int opc;
+        String matricula, bastidor;
+        int velocidad, cv, cc;
+        Concesionario c1 = new Concesionario();
+        do {
+            System.out.println("Elige una opcion: ");
+            opc = in.nextInt();
+            switch (opc) {
+                case 1:
+                    System.out.println("inttroduce matricula: ");
+                    matricula = in.next();
+                    System.out.println("inttroduce bastidor: ");
+                    bastidor = in.next();
+                    System.out.println("inttroduce cv: ");
+                    cv = in.nextInt();
+                    System.out.println("inttroduce cc: ");
+                    cc = in.nextInt();
+                    Coche coche = new Coche(matricula, bastidor, cv, cc);
+                    c1.agregarCoche(coche);
+
+                    break;
+
+                case 2:
+                    System.out.println("inttroduce matricula: ");
+                    matricula = in.next();
+                    c1.buscarCoche(matricula);
+
+                    break;
+
+            }
+        }while (opc != 0);
 
     }
 }
