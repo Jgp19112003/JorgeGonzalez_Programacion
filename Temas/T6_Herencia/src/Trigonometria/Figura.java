@@ -1,20 +1,20 @@
 package Trigonometria;
 
-public class Figura {
+public abstract class Figura {
 
-    private double altura, base;
+    protected double area;
 
     public Figura(){}
 
-    public  Figura(double altura, double base){
+    public abstract double calcularArea();
 
-        this.altura = altura;
-        this.base = base;
 
+
+    public double getArea() {
+        return area;
     }
 
-    public void calcularArea(){
-
+    public void setArea(double area) {
+        this.area = area;
     }
-
 }
