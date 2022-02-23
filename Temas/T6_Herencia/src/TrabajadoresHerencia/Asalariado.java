@@ -1,19 +1,18 @@
 package TrabajadoresHerencia;
 
-public class Autonomo extends Trabajador{
+public class Asalariado extends Trabajador{
 
-
-    int sueldo;
+    int sueldo, pagas;
     boolean contratado;
 
+    public Asalariado(){}
 
-    public Autonomo(){}
-
-    public Autonomo(String nombre,String apellido,String dni,int sueldo){
+    public Asalariado(String nombre, String apellido, String dni, int sueldo, int pagas){
         this.nombre = nombre;
         this.apellido = apellido;
         this.dni = dni;
         this.sueldo = sueldo;
+        this.pagas = pagas;
 
     }
 
@@ -21,6 +20,7 @@ public class Autonomo extends Trabajador{
     public void mostrarDatos() {
         super.mostrarDatos();
         System.out.println(sueldo);
+        System.out.println(pagas);
     }
 
     public int getSueldo() {
@@ -29,6 +29,14 @@ public class Autonomo extends Trabajador{
 
     public void setSueldo(int sueldo) {
         this.sueldo = sueldo;
+    }
+
+    public int getPagas() {
+        return pagas;
+    }
+
+    public void setPagas(int pagas) {
+        this.pagas = pagas;
     }
 
     public boolean isContratado() {
