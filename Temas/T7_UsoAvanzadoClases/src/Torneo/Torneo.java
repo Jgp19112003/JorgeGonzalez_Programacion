@@ -3,24 +3,31 @@ package Torneo;
 import PartidoAnidado.Partido;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 
 public final class Torneo {
 
     private String nombre;
-    ArrayList<Partido> partidos = new ArrayList();
+    private ArrayList<Partido> partidos = new ArrayList();
+    private ArrayList<Equipo> listaequipos = new ArrayList();
+
 
     public Torneo(String nombre) {
         this.nombre = nombre;
     }
 
+
     public void realizarSorteo (ArrayList<Equipo> equipos){
+        this.listaequipos = equipos;
+
         for (int i = 0; i < equipos.size(); i++) {
             for (int j = 1+i ; j < equipos.size(); j++) {
                 Partido ps = new Partido(equipos.get(i),equipos.get(j));
                 partidos.add(ps);
             }
         }
-        System.out.println(partidos.size());
     }
 
     public void mostrarPartidos(){
@@ -47,9 +54,6 @@ public final class Torneo {
                 partido.golesp1++;
                 partido.equipo_visitante.golesencuentro++;
             }
-        }
-
-        for (int i = 0; i < 3; i++) {
             if (partido.equipo_local.nivel_ataque > partido.equipo_visitante.nivel_defensa){
                 partido.golesp2++;
                 partido.equipo_local.golesencuentro++;
@@ -59,28 +63,47 @@ public final class Torneo {
                 partido.equipo_visitante.golesencuentro++;
             }
         }
-        darPuntos();
+
+        if (partido.equipo_local.golesencuentro > partido.equipo_visitante.golesencuentro) {
+            partido.equipo_local.puntos += 3;
+        }
+        if (partido.equipo_visitante.golesencuentro > partido.equipo_local.golesencuentro) {
+            partido.equipo_visitante.puntos += 3;
+        }
+        if (partido.equipo_visitante.golesencuentro == partido.equipo_local.golesencuentro){
+            partido.equipo_local.puntos += 1;
+            partido.equipo_visitante.puntos += 1;
+        }
+
         partido.goles_totales = partido.golesp1 + partido.golesp2;
         System.out.println("En la primera parte hubo: "+partido.golesp1+" y en la segunda: "+partido.golesp2+" sumando un total de "+partido.goles_totales+" goles");
         System.out.println(partido.equipo_local.nombre+":"+partido.equipo_local.golesencuentro+" - "+partido.equipo_visitante.nombre+":"+partido.equipo_visitante.golesencuentro);
+        partido.equipo_local.golesencuentro = 0;
+        partido.equipo_visitante.golesencuentro = 0;
     }
 
-    public void darPuntos(){
-        for (Partido item: partidos) {
-            if (item.equipo_local.golesencuentro > item.equipo_visitante.golesencuentro) {
-                item.equipo_local.puntos += 3;
-            }
-            if (item.equipo_visitante.golesencuentro > item.equipo_local.golesencuentro) {
-                item.equipo_visitante.puntos += 3;
-            } else {
-                item.equipo_local.puntos += 1;
-                item.equipo_visitante.puntos += 1;
-            }
-        }
-    }
     public void mostrarPuntos(ArrayList<Equipo> equipos){
         for (Equipo item: equipos) {
             System.out.println(item.nombre+": "+item.puntos);
+        }
+    }
+
+    public void imprimirClasificacion(){
+        Collections.sort(listaequipos, new Comparator<Equipo>() {
+            @Override
+            public int compare(Equipo o1, Equipo o2) {
+                if (o1.getPuntos() > o2.getPuntos()) {
+                    return -1;
+                }
+                return 0;
+            }
+        });
+
+        int contador = 1;
+
+        for (Equipo item: listaequipos) {
+            System.out.printf("%d - %s - %d%n",contador,item.getNombre(),item.getPuntos());
+            contador++;
         }
     }
 

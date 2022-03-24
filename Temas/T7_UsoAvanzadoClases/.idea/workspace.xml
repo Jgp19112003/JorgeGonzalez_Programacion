@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf2850f-7f1b-47b6-a5f1-a3f1f60b51cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T7_UsoAvanzadoClases.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CocheAnidado/Coche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CocheAnidado/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Idiomas/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Idiomas/Idiomas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PartidoAnidado/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PartidoAnidado/Partido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Torneo/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Torneo/Torneo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Torneo/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Torneo/Entrada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Torneo/Torneo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Torneo/Torneo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

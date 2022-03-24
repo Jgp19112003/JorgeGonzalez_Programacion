@@ -21,6 +21,7 @@ public class Entrada {
         mundial.realizarSorteo(equipos_mundial);
         mundial.iniciarTorneo();
         mundial.mostrarPuntos(equipos_mundial);
+        mundial.imprimirClasificacion();
 
 
     }
