@@ -6,8 +6,8 @@ import java.util.Scanner;
 public final class Cuenta {
     Scanner in = new Scanner(System.in);
 
-    int id, pin, saldo;
-    ArrayList<Cuenta> cuentas = new ArrayList<>();
+    private int id, pin, saldo;
+    private ArrayList<Cuenta> cuentas = new ArrayList<>();
 
     public Cuenta(){}
 
@@ -81,6 +81,14 @@ public final class Cuenta {
 
         }
 
+    }
+
+    public void verSaldo(int id, int pin){
+        for (Cuenta item: cuentas) {
+            if (item.getId() == id && item.getPin() == pin) {
+                System.out.println("Su balance actual es de : "+item.getSaldo());
+            }
+        }
     }
 
 
