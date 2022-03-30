@@ -2,13 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf2850f-7f1b-47b6-a5f1-a3f1f60b51cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/T7_UsoAvanzadoClases.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ej5Repaso/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ej5Repaso/Terreno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Super/Alimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Super/Carne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Super/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Super/Inventariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Super/Lacteo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Super/Mesa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Super/Mueble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Super/Silla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Super/Supermercado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/Ej2Repaso/Cuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/Ej2Repaso/Cuenta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/Ej2Repaso/Entrada.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/Ej2Repaso/Entrada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ej2Repaso/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ej2Repaso/Cuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ej2Repaso/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ej2Repaso/Entrada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/AlmacenException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Bicicleta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Tienda$Almacen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Tienda.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,33 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Entrada (3)">
-    <configuration name="Entrada (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CocheAnidado.Entrada" />
-      <module name="T7_UsoAvanzadoClases" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CocheAnidado.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Entrada (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Torneo.Entrada" />
-      <module name="T7_UsoAvanzadoClases" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Torneo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Entrada">
     <configuration name="Entrada (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PosibleExamen.Entrada" />
       <module name="T7_UsoAvanzadoClases" />
@@ -107,11 +98,24 @@
       </method>
     </configuration>
     <configuration name="Entrada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Excepciones.Entrada" />
+      <option name="MAIN_CLASS_NAME" value="Super.Entrada" />
       <module name="T7_UsoAvanzadoClases" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Excepciones.*" />
+          <option name="PATTERN" value="Super.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Entrada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ej5Repaso.Entrada" />
+      <module name="T7_UsoAvanzadoClases" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ej5Repaso.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Entrada (3)" />
+        <item itemvalue="Application.Entrada" />
+        <item itemvalue="Application.Entrada (6)" />
         <item itemvalue="Application.Entrada (5)" />
         <item itemvalue="Application.Entrada (3)" />
-        <item itemvalue="Application.Entrada (4)" />
-        <item itemvalue="Application.Entrada (2)" />
+        <item itemvalue="Application.Entrada (3)" />
       </list>
     </recent_temporary>
   </component>
