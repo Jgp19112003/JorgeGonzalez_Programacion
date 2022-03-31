@@ -2,30 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf2850f-7f1b-47b6-a5f1-a3f1f60b51cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ej5Repaso/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej5Repaso/Terreno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Super/Alimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Super/Carne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Super/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Super/Inventariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Super/Lacteo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Super/Mesa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Super/Mueble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Super/Silla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Super/Supermercado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7_Examen/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7_Examen/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7_Examen/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7_Examen/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7_Examen/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7_Examen/T7_Examen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7_Examen/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7_Examen/src/Examen/Constantes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7_Examen/src/Examen/Consumibles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7_Examen/src/Examen/LanzarEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7_Examen/src/Examen/MiExcepcion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7_Examen/src/Examen/Restaurante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7_Examen/src/Examen/TipoBebidas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7_Examen/src/Examen/TipoComida.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/AlmacenException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Bicicleta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Entrada.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Tienda$Almacen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T7_UsoAvanzadoClases/PosibleExamen/Tienda.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../T7_Examen" />
   </component>
   <component name="RunManager" selected="Application.Entrada">
     <configuration name="Entrada (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -126,7 +117,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Entrada" />
-        <item itemvalue="Application.Entrada (6)" />
         <item itemvalue="Application.Entrada (5)" />
         <item itemvalue="Application.Entrada (3)" />
         <item itemvalue="Application.Entrada (3)" />
