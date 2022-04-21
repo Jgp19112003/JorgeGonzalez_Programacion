@@ -42,8 +42,7 @@ public class FicheroController {
         File[] ficheros = file.listFiles(); */
 
 
-
-        public void lecturaFichero (File file){
+   /* public void lecturaFichero (File file){
 
             FileReader fileReader = null;
 
@@ -53,7 +52,7 @@ public class FicheroController {
                     /*while (lectura != 0){
                         lectura = fileReader.read();
                         System.out.println(lectura);
-                    }*/
+                    }
                     while ((lectura = fileReader.read())!= -1){
                         System.out.println((char) lectura);
 
@@ -111,5 +110,7 @@ public class FicheroController {
                     e.printStackTrace();
                 }
             }
-        }
+        }*/
+
+
 }
