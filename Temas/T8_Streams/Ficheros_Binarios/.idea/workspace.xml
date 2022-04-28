@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="725ec7d7-28b3-40ab-ad2a-96ff29ebd39d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../EjercicioBinarios/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EjercicioBinarios/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EjercicioBinarios/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EjercicioBinarios/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EjercicioBinarios/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EjercicioBinarios/EjercicioBinarios.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EjercicioBinarios/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EjercicioBinarios/src/controllerej/BinariosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EjercicioBinarios/src/modelej/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ficheros_Binarios.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/BinariosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/objetos.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T8_Streams/out/production/T8_Streams/Controllers/FicheroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../T8_Streams/out/production/T8_Streams/Controllers/FicheroController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T8_Streams/out/production/T8_Streams/Entrada.class" beforeDir="false" afterPath="$PROJECT_DIR$/../T8_Streams/out/production/T8_Streams/Entrada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T8_Streams/src/Controllers/FicheroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T8_Streams/src/Controllers/FicheroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T8_Streams/src/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T8_Streams/src/Entrada.java" afterDir="false" />
-    </list>
+    <list default="true" id="725ec7d7-28b3-40ab-ad2a-96ff29ebd39d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +15,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="2867O0JUMU7yfxjSLgGlY5d3cZT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -54,6 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EjercicioBinarios" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -90,6 +67,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

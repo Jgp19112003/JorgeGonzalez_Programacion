@@ -1,0 +1,34 @@
+{
+  "nombre": "Borja",
+  "edad": 38,
+  "experiencia": true,
+  "hobbies": [
+    "futbol",
+    "musica",
+    "cine"
+  ],
+  "conocimientos": [
+    {
+      "concepto": "programacion",
+      "anios": 12,
+      "detalle": [
+        "java",
+        "html",
+        "css",
+        "javascript",
+        "mysql",
+        "powershell"
+      ]
+    },
+    {
+      "concepto": "3D",
+      "anios": 4,
+      "detalle": [
+        "Maya",
+        "3DMax",
+        "Blender",
+        "Unity"
+      ]
+    }
+  ]
+}
