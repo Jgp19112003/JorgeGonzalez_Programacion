@@ -1,14 +1,21 @@
 package controller;
 
+import Model.Asignatura;
 import Model.Conocimiento;
 import com.google.gson.Gson;
+import com.google.gson.internal.bind.util.ISO8601Utils;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import javax.net.ssl.HttpsURLConnection;
 import java.io.*;
+import java.net.URL;
+import java.util.ArrayList;
+
 
 public class JSONcontroller {
 
+    ArrayList<Asignatura> listaAsignaturas = new ArrayList<>();
     String jsonString = "{\n" +
             "  \"nombre\": \"Borja\",\n" +
             "  \"apellidos\": \"Martin Herrera\",\n" +
@@ -19,7 +26,6 @@ public class JSONcontroller {
             "    \"cine\",\n" +
             "    \"informática\"\n" +
             "  ]}";
-
     public void pasarStringJSON(){
         /*(org.Json)*/
         JSONObject jsonObject = new JSONObject(jsonString);
@@ -82,4 +88,134 @@ public class JSONcontroller {
             }
         }
     }
+    public  void leerJSONAsignaturas(){
+
+        File file = new File("src/main/resources/asignaturas.json");
+        BufferedReader bufferedReader = null;
+
+        try {
+            bufferedReader = new BufferedReader(new FileReader(file));
+            //bufferedReader.readLine();/*Leer linea completa*/
+            String linea = null;
+            StringBuffer lecturaCompleta = new StringBuffer();
+            while ((linea = bufferedReader.readLine()) != null){
+                lecturaCompleta.append(linea);
+            }
+
+            //PASAR STRING A JSON
+            JSONObject jsonObject = new JSONObject(lecturaCompleta.toString());
+            JSONArray arrayAsignaturas = jsonObject.getJSONArray("asignaturas");
+            System.out.println(arrayAsignaturas);
+            for (int i = 0; i < arrayAsignaturas.length(); i++) {
+                JSONObject asignatura = arrayAsignaturas.getJSONObject(i);
+                Gson gson = new Gson();
+                Asignatura asignaturaJava = gson.fromJson(asignatura.toString(),Asignatura.class);
+                carateristicasAsignatura(asignaturaJava);
+                JSONArray conocimientos = asignatura.getJSONArray("conocimientos");
+                for (int j = 0; j < conocimientos.length(); j++) {
+                    String conocimiento = conocimientos.getString(j);
+                    System.out.println(conocimiento);
+                }
+            }
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }finally {
+            try {
+                if (bufferedReader != null){
+                    bufferedReader.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
+
+    public void carateristicasAsignatura (Asignatura asignatura){
+        System.out.println(asignatura.getSiglas());
+        System.out.println(asignatura.getNombre());
+        System.out.println(asignatura.getProfesor());
+        System.out.println(asignatura.getHora());
+        System.out.println(asignatura.getCiclo());
+        System.out.println(asignatura.getCurso());
+
+    }public void carateristicasAsignaturas (String ciclo, int curso){
+        for (Asignatura item: listaAsignaturas) {
+            if (item.getCiclo().contains(ciclo) && item.getCurso() == curso) {
+                carateristicasAsignatura(item);
+                System.out.println(item.getSiglas());
+                System.out.println(item.getNombre());
+                System.out.println(item.getProfesor());
+                System.out.println(item.getHora());
+                System.out.println(item.getCiclo());
+                System.out.println(item.getCurso());
+                for (String itemconocimientos: item.getConocimientos()) {
+                    System.out.println(itemconocimientos);
+                }
+
+            }
+        }
+    }
+    public void mostrarAsignaturaUsuario (int curso, String ciclo){
+
+        File file = new File("src/main/resources/asignaturas.json");
+        BufferedReader bufferedReader = null;
+        listaAsignaturas = this.listaAsignaturas;
+
+        try {
+            bufferedReader = new BufferedReader(new FileReader(file));
+            //bufferedReader.readLine();/*Leer linea completa*/
+            String linea = null;
+            StringBuffer lecturaCompleta = new StringBuffer();
+            while ((linea = bufferedReader.readLine()) != null){
+                lecturaCompleta.append(linea);
+            }
+
+            //PASAR STRING A JSON
+
+            JSONObject jsonObject = new JSONObject(lecturaCompleta.toString());
+            JSONArray arrayAsignaturas = jsonObject.getJSONArray("asignaturas");
+            for (int i = 0; i < arrayAsignaturas.length(); i++) {
+                JSONObject asignatura = arrayAsignaturas.getJSONObject(i);
+
+                Gson gson = new Gson();
+                Asignatura asignaturaJava = gson.fromJson(asignatura.toString(),Asignatura.class);
+                listaAsignaturas.add(asignaturaJava);
+                carateristicasAsignaturas(ciclo,curso);
+            }
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }finally {
+            try {
+                if (bufferedReader != null){
+                    bufferedReader.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
+    public void lecturaJSONAPI(){
+        String urlString = "https://randomuser.me/api/?results=10";
+        try {
+            URL  url = new URL(urlString);
+            HttpsURLConnection connection = (HttpsURLConnection) url.openConnection();
+            //contestacion
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            String lectura = bufferedReader.readLine();
+            System.out.println(lectura);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 }
+
