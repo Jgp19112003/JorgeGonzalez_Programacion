@@ -26,6 +26,7 @@ public class JSONcontroller {
             "    \"cine\",\n" +
             "    \"informática\"\n" +
             "  ]}";
+
     public void pasarStringJSON(){
         /*(org.Json)*/
         JSONObject jsonObject = new JSONObject(jsonString);
@@ -203,14 +204,30 @@ public class JSONcontroller {
 
     }
     public void lecturaJSONAPI(){
-        String urlString = "https://randomuser.me/api/?results=10";
+        String urlString = "https://randomuser.me/api/?results=2";
         try {
             URL  url = new URL(urlString);
             HttpsURLConnection connection = (HttpsURLConnection) url.openConnection();
             //contestacion
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
-            String lectura = bufferedReader.readLine();
-            System.out.println(lectura);
+            StringBuffer stringBuffer = new StringBuffer();
+            String linea = null;
+
+            while ((linea=bufferedReader.readLine())!=null){
+                stringBuffer.append(linea);
+            }
+            String response = stringBuffer.toString();
+            JSONObject responseJSON = new JSONObject(response);
+
+            //System.out.println(responseJSON); SACAMOS TO DO EL TEXTO
+
+            JSONArray arrayResultados = responseJSON.getJSONArray("results"); //DE LOS RESULTADOS SACAMOS EL EMAIL
+            for (int i = 0; i < arrayResultados.length(); i++) {
+                JSONObject objetoResultado = arrayResultados.getJSONObject(i);
+                //System.out.println(objetoResultado);
+                String mail = objetoResultado.getString("email");
+                System.out.println(mail);
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
