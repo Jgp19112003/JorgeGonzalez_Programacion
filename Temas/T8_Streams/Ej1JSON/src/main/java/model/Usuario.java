@@ -2,68 +2,50 @@ package model;
 
 import java.io.Serializable;
 
-public class Usuario implements Serializable{
+public class Usuario implements Serializable {
 
-    private Object name, city, country, email, picture;
+    private String imagen, mail;
+    private Name nameJAVA;
 
-    public Usuario(){}
-
-    public Usuario(Object name, Object city, Object country, Object email, Object picture) {
-        this.name = name;
-        this.city = city;
-        this.country = country;
-        this.email = email;
-        this.picture = picture;
+    public Usuario(String imagen, String mail, Name name) {
+        this.imagen = imagen;
+        this.mail = mail;
+        this.nameJAVA = name;
     }
 
-    public Object getName() {
-        return name;
+    public Usuario() {
     }
 
-    public void setName(Object name) {
-        this.name = name;
+    public String getImagen() {
+        return imagen;
     }
 
-    public Object getCity() {
-        return city;
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
     }
 
-    public void setCity(Object city) {
-        this.city = city;
+    public String getMail() {
+        return mail;
     }
 
-    public Object getCountry() {
-        return country;
+    public void setMail(String mail) {
+        this.mail = mail;
     }
 
-    public void setCountry(Object country) {
-        this.country = country;
+    public Name getName() {
+        return nameJAVA;
     }
 
-    public Object getEmail() {
-        return email;
-    }
-
-    public void setEmail(Object email) {
-        this.email = email;
-    }
-
-    public Object getPicture() {
-        return picture;
-    }
-
-    public void setPicture(Object picture) {
-        this.picture = picture;
+    public void setName(Name name) {
+        this.nameJAVA = name;
     }
 
     @Override
     public String toString() {
         return "Usuario{" +
-                "name=" + name +
-                ", city=" + city +
-                ", country=" + country +
-                ", email=" + email +
-                ", picture=" + picture +
+                "imagen='" + imagen + '\'' +
+                ", mail='" + mail + '\'' +
+                ", nameJAVA=" + nameJAVA +
                 '}';
     }
 }

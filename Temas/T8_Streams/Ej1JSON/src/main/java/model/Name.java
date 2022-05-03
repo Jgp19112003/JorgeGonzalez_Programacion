@@ -1,13 +1,26 @@
 package model;
 
-public class Name {
+import java.io.Serializable;
 
-    private String first, last, tittle;
+public class Name implements Serializable {
 
-    public Name(String first, String last, String tittle) {
+    private String title, first, last;
+
+    public Name(String title, String first, String last) {
+        this.title = title;
         this.first = first;
         this.last = last;
-        this.tittle = tittle;
+    }
+
+    public Name() {
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getFirst() {
@@ -26,20 +39,12 @@ public class Name {
         this.last = last;
     }
 
-    public String getTittle() {
-        return tittle;
-    }
-
-    public void setTittle(String tittle) {
-        this.tittle = tittle;
-    }
-
     @Override
     public String toString() {
         return "Name{" +
-                "first='" + first + '\'' +
+                "title='" + title + '\'' +
+                ", first='" + first + '\'' +
                 ", last='" + last + '\'' +
-                ", tittle='" + tittle + '\'' +
                 '}';
     }
 }
