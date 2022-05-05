@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24d1348f-e99d-4868-b32c-db7fd6ac24f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/JSONcontroller3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Pelicula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartelera.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/proximamente.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/src/main/java/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/src/main/java/controller/JSONcontroller1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/src/main/java/controller/JSONcontroller2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/src/main/java/model/Personaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/src/main/resources/fichero_cifrado.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/src/main/resources/personajes_vf.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/target/classes/Main1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/target/classes/controller/JSONcontroller1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/target/classes/controller/JSONcontroller2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/target/classes/fichero_cifrado.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/target/classes/model/Personaje.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen_T8_JorgeGonzálezPérez/target/classes/personajes_vf.bin" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="28jrZiYkfhP59A5ksiaeBXccdyf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ExamenPT2_Jorge_Gonzalez" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24d1348f-e99d-4868-b32c-db7fd6ac24f0" name="Changes" comment="" />
+      <created>1651740893350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651740893350</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
