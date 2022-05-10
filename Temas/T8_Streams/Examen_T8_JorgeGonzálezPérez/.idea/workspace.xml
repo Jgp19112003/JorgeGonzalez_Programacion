@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d22730b-f72c-4f7c-a894-20e50881dc69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ExamenPT2_Jorge_Gonzalez/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenPT2_Jorge_Gonzalez/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenPT2_Jorge_Gonzalez/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenPT2_Jorge_Gonzalez/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenPT2_Jorge_Gonzalez/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenPT2_Jorge_Gonzalez/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenPT2_Jorge_Gonzalez/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenPT2_Jorge_Gonzalez/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenPT2_Jorge_Gonzalez/src/main/java/controller/JSONcontroller3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenPT2_Jorge_Gonzalez/src/main/java/model/Pelicula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenPT2_Jorge_Gonzalez/src/main/resources/cartelera.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenPT2_Jorge_Gonzalez/src/main/resources/proximamente.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/JSONcontroller1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/JSONcontroller2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Personaje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fichero_cifrado.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/personajes_vf.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Main1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/controller/JSONcontroller1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/controller/JSONcontroller2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fichero_cifrado.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/Personaje.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personajes_vf.bin" afterDir="false" />
-    </list>
+    <list default="true" id="9d22730b-f72c-4f7c-a894-20e50881dc69" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,5 +73,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
