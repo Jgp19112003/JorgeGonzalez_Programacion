@@ -47,5 +47,7 @@ public class Main {
         System.out.println("Introduzca edad: ");
         edad = in.nextInt();
         controllerBD.borrarAlumno(edad);*/
+
+        controllerBD.getResultado();
     }
 }

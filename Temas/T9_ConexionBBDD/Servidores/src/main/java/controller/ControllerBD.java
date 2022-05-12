@@ -3,10 +3,8 @@ package controller;
 import database.SchemaDB;
 import model.Alumno;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
+import java.util.ArrayList;
 
 public class ControllerBD {
 
@@ -14,6 +12,9 @@ public class ControllerBD {
 
     //No comprueba tipos
     private Statement statement;
+    private ResultSet resultSet;
+    private ArrayList<Alumno> listaAlumnos = new ArrayList();
+
 
     // CRUD
 
@@ -136,6 +137,40 @@ public class ControllerBD {
                 e.printStackTrace();
             }
             closeConnection();
+        }
+
+    }
+
+
+    public void getResultado (){
+
+        getConnection();
+
+        try{
+            statement = conn.createStatement();
+            String query = "SELECT * FROM "+SchemaDB.TAB_ALU;
+            resultSet = statement.executeQuery(query);
+            //La posicion donde estas ubicado
+
+
+
+                while (resultSet.next()) {
+                    String nombre = resultSet.getString(SchemaDB.COL_NOMBRE);
+                    String apellido = resultSet.getString(SchemaDB.COL_APELLIDO);
+                    int edad = resultSet.getInt(SchemaDB.COL_EDAD);
+                    int id = resultSet.getInt(SchemaDB.COL_ID);
+
+                    Alumno a1 = new Alumno(nombre, apellido, edad, id);
+                    listaAlumnos.add(a1);
+
+                    System.out.println(a1.getNombre());
+                    System.out.println(a1.getApellido());
+                    System.out.println(a1.getEdad());
+                    System.out.println(a1.getId());
+                }
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
         }
 
     }
