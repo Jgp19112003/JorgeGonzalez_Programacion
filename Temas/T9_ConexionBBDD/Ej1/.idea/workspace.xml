@@ -5,24 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fc9de0c-d034-451d-a660-1b6e73dab816" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/GestionDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/database/SchemaDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Servidores/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Servidores/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Servidores/src/main/java/controller/ControllerBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Servidores/src/main/java/controller/ControllerBD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Servidores/src/main/java/model/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Servidores/src/main/java/model/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Servidores/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Servidores/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Servidores/target/classes/controller/ControllerBD.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Servidores/target/classes/controller/ControllerBD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Servidores/target/classes/model/Alumno.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Servidores/target/classes/model/Alumno.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Perfil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/GestionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GestionDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/database/SchemaDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/SchemaDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -87,5 +76,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

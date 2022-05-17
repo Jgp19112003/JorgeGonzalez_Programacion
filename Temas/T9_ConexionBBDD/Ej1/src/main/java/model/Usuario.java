@@ -2,8 +2,8 @@ package model;
 
 public class Usuario {
 
-    String nombre,apellido,pais;
-    int id, telefono,sueldo,perfil;
+    private String nombre,apellido,pais;
+    private int id, telefono,sueldo,perfil;
 
     public Usuario(String nombre, String apellido, String pais, int id, int telefono, int sueldo, int perfil) {
         this.nombre = nombre;
@@ -12,6 +12,21 @@ public class Usuario {
         this.id = id;
         this.telefono = telefono;
         this.sueldo = sueldo;
+        this.perfil = perfil;
+    }
+
+    public Usuario(String nombre, String apellido, String pais, int telefono) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.pais = pais;
+        this.telefono = telefono;
+    }
+
+    public Usuario(String nombre, String apellido, String pais, int telefono,int perfil) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.pais = pais;
+        this.telefono = telefono;
         this.perfil = perfil;
     }
 

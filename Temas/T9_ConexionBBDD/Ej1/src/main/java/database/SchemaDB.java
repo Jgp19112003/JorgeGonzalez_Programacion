@@ -11,6 +11,10 @@ public interface SchemaDB {
     String COL_TELEFONO = "telefono";
     String COL_SUELDO = "sueldo";
     String COL_PAIS = "pais";
-    String COL_PERFIL = "perfil";
+    String COL_PERFIL = "id_perfil";
+
+    String TAB_PERF = "perfiles";
+    String COL_ID_PERF = "id";
+    String COL_NOMBRE_PERF = "nombre";
 
 }

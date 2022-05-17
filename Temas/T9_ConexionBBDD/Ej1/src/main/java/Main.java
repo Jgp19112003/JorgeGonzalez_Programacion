@@ -1,4 +1,5 @@
 import controller.GestionDB;
+import model.Perfil;
 import model.Usuario;
 
 import java.util.Scanner;
@@ -11,11 +12,16 @@ public class Main {
 
         GestionDB gestionDB = new GestionDB();
 
-        Usuario u1 = new Usuario("Jorge","González","España",1,645239745,10000,1);
-        gestionDB.insertarUsuarios(u1);
-        Usuario u2 = new Usuario("Alex","Aguado","España",2,687193070,5000,2);
-        gestionDB.insertarUsuarios(u2);
-        Usuario u3 = new Usuario("Andrés","Zamarreño","España",3,610992033,7000,3);
-        gestionDB.insertarUsuarios(u3);
+        gestionDB.insertarUsuarios();
+
+        /*
+        Perfil p1 = new Perfil(1,"trabajador");
+        gestionDB.insertarPerfiles(p1);
+        Perfil p2 = new Perfil(2,"director");
+        gestionDB.insertarPerfiles(p2);
+        Perfil p3 = new Perfil(3,"gerente");
+        gestionDB.insertarPerfiles(p3);*/
+
+       /* gestionDB.actualizarEspañoles();*/
     }
 }
